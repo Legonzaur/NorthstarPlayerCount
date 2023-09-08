@@ -1,0 +1,16 @@
+{
+    "Name": "Northstar.CountPlayers",
+    "Description": "Writes into a file the number of current players in the server",
+    "Version": "1.0.0",
+    "LoadPriority": 2,
+    "RequiredOnClient": false,
+    "Scripts": [
+        {
+            "Path": "countPlayers.nut",
+            "RunOn": "SERVER",
+            "ServerCallback": {
+                "After": "countPlayers_init"
+            }
+        }
+    ]
+}
