@@ -15,7 +15,7 @@ void function PlayerJoin(entity player){
     SavePlayerCount()
 }
 
-void function PlayerLeaves(entity player){
+void function PlayerLeave(entity player){
     file.playerCount--
     SavePlayerCount()
 }
